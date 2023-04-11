@@ -1,0 +1,1 @@
+Otrzymana wartość zgadza się w granicach spodziewanych błędów. Im więcej wyliczeń π, tym przybliżenie liczby π metodą Monte Carlo daje wynik bliższy wartości π. Co więcej, im wyliczamy π co większą ilość losowań, tym przybliżenie liczby π metodą Monte Carlo daje wynik jeszcze bliższy wartości π.

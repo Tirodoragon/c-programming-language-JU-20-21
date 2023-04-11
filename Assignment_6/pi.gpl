@@ -1,0 +1,25 @@
+reset
+
+set terminal pdf size 16, 9
+set encoding utf8
+
+set output "pi.pdf"
+
+# -------------------------------------------------------
+
+set grid
+
+set title "π metodą Monte-Carlo vs π" font ", 36"
+
+set xlabel "ilość wyliczeń π co milion losowań" font ", 18"
+set ylabel "wartość π" font ", 18"
+
+set yrange [3.1395:3.1445]
+
+set xtics 20
+set ytics 0.0001
+
+set key top right box
+set key font ", 18"
+
+plot [0:500] 'pi.dat' t "π metodą Monte-Carlo" lt 7 lc 3 pointsize 0.5 w err, pi t "π" lc 7 w l
