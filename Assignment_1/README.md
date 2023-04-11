@@ -1,5 +1,5 @@
 # Assignment 1
-Print the values of the numbers π and π^2 with an accuracy of 6, 12, and 18 decimal places.
+Print the values of the numbers π and $π^2$ with an accuracy of 6, 12, and 18 decimal places.
 
 The number π can be obtained using M_PI or acos(-1) - requiring #include <math.h>.
 
