@@ -1,0 +1,8 @@
+0.7 sin 2 pow 0.7 cos 2 pow add
+=
+0.7 dup sin 2 pow exch cos 2 pow add
+=
+
+3.5 -7.1 99 min max =
+
+8 4 bc =
